@@ -4,7 +4,7 @@
   "description": "Typescript representation of models used by api",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "exit 0"
   },
   "repository": {
     "type": "git",
