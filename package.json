@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/olegbragin/uskatemodels/issues"
   },
-  "homepage": "https://github.com/olegbragin/uskatemodels#readme"
+  "homepage": "https://github.com/olegbragin/uskatemodels#readme",
+  "publishConfig": {
+    "@olegbragin:registry": "https://npm.pkg.github.com"
+  }
 }
