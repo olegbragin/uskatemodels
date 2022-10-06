@@ -1,6 +1,6 @@
 {
   "name": "@olegbragin/uskatemodels",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Typescript representation of models used by api",
   "main": "index.js",
   "scripts": {
