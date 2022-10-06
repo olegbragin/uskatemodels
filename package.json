@@ -1,6 +1,6 @@
 {
   "name": "@olegbragin/uskatemodels",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Typescript representation of models used by api",
   "main": "index.js",
   "scripts": {
@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/olegbragin/uskatemodels#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/olegbragin"
+    "@olegbragin:registry": "https://npm.pkg.github.com/olegbragin"
   }
 }
