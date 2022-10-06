@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "lib": [
+        "dom",
+        "dom.iterable",
+        "esnext"
+      ],
+      "module": "CommonJS",
+      "moduleResolution": "node",
+      "noImplicitReturns": true,    
+      "esModuleInterop": true,
+      "outDir": "dist",
+      "sourceMap": true,
+      "declaration": true,
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "noEmit": true,
+      "types": [
+        "mocha", "node", "chai"
+      ]
+    },
+    "compileOnSave": true,
+    "include": [
+      "src"
+    ],
+    "exclude": [
+      "node_modules"
+    ],
+    "baseUrl": ".",
+}
