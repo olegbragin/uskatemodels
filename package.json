@@ -1,0 +1,19 @@
+{
+  "name": "uskatemodels",
+  "version": "1.0.0",
+  "description": "Typescript representation of models used by api",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olegbragin/uskatemodels.git"
+  },
+  "author": "olegbragin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olegbragin/uskatemodels/issues"
+  },
+  "homepage": "https://github.com/olegbragin/uskatemodels#readme"
+}
