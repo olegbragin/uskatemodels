@@ -1,3 +1,3 @@
 export declare const helloWorld: () => string;
 
-export * as UserModels from '../src/models/user'
+export * from '../src/models/user'
