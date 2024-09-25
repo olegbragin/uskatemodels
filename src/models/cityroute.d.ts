@@ -1,4 +1,4 @@
-export interface Route {
+export interface CityRoute {
   id?: number
   title: string
   description: string
