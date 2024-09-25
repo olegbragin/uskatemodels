@@ -1,6 +1,6 @@
 export interface CityRoute {
   id?: number
   title: string
-  description: string
+  details: string
   path: string
 }
