@@ -1,4 +1,4 @@
-export interface chargestation {
+export interface ChargeStation {
   id?: number
   latitude: number
   longitude: number

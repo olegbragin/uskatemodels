@@ -1,6 +1,6 @@
 {
   "name": "@olegbragin/uskatemodels",
-  "version": "0.0.31",
+  "version": "0.0.32",
   "description": "Typescript representation of models used by api",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
