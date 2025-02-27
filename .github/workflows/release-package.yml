@@ -8,8 +8,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-node@v4.2.0
         with:
           node-version: 'latest'
       - run: npm install
@@ -23,14 +23,18 @@ jobs:
       packages: write
       contents: read
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Configure NPM
+        run: |
+          echo "//npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN" > .npmrc
+          echo '@olegbragin:registry=https://npm.pkg.github.com' >> .npmrc
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - uses: actions/checkout@v4.2.2
+      - uses: actions/setup-node@v4.2.0
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
           scope: '@olegbragin'
-      - run: echo registry=https://npm.pkg.github.com/olegbragin >> .npmrc
-      - run: echo //npm.pkg.github.com/:_authToken=${{secrets.NPM_TOKEN}}
       - run: npm install
       - run: npm ci
       - run: npm publish
