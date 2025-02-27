@@ -30,6 +30,7 @@ jobs:
           registry-url: https://npm.pkg.github.com/
           scope: '@olegbragin'
       - run: echo registry=https://npm.pkg.github.com/olegbragin >> .npmrc
+      - run: echo //npm.pkg.github.com/:_authToken=${{secrets.NPM_TOKEN}}
       - run: npm install
       - run: npm ci
       - run: npm publish
