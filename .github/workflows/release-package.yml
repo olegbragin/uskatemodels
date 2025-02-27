@@ -28,7 +28,7 @@ jobs:
           echo "//npm.pkg.github.com/:_authToken=$NODE_AUTH_TOKEN" > .npmrc
           echo '@olegbragin:registry=https://npm.pkg.github.com' >> .npmrc
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
       - uses: actions/checkout@v4.2.2
       - uses: actions/setup-node@v4.2.0
         with:
