@@ -5,7 +5,7 @@ export interface ChargeStation {
   title?: string
   subtitle?: string
   imageSrc?: string
-  chargeType?: string
+  chargerType?: string
   rating?: number
   isFavorite?: boolean
 }
