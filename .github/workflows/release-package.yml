@@ -28,6 +28,8 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
+          scope: '@olegbragin'
+      - run: echo registry=https://npm.pkg.github.com/olegbragin >> .npmrc
       - run: npm install
       - run: npm ci
       - run: npm publish
