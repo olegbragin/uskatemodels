@@ -1,4 +1,4 @@
-export interface Charger {
+export interface ChargerDTO {
   id?: number
   plug: number
   state: number
