@@ -1,4 +1,4 @@
-export interface CityRoute {
+export interface CityRouteDTO {
   id?: number
   title: string
   details: string
